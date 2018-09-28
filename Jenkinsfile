@@ -37,7 +37,7 @@ pipeline {
     }
     stage('deploy') {
       steps {
-        input(message: 'deploy', submitter: 'user21')
+        input(message: 'deploy', submitter: 'user1')
       }
     }
   }
